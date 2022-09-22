@@ -1,0 +1,263 @@
+.container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: none;     
+    font-family: "Inter", sans-serif;
+
+}
+
+
+.caixa {
+    position:relative;
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+
+}
+
+
+.menu-fixo {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    font-size: 22px;
+    color: darkblue;
+    font-weight: bold;
+    text-align: center;
+    padding-top: -40px;    
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 4px;
+    border-left: none;
+    border-right: none;
+    border-top-color: darkblue;
+    border-bottom-color: darkblue;
+ 
+}
+
+nav li {
+    flex: 1;
+    margin: 16px;
+    padding-top: 10px;
+    display: inline;
+}
+
+nav a {
+    position: relative;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    top: -30px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkblue;
+    text-decoration: underline;
+    transform: scale(1.5);
+    transition: 1s all;
+}
+ 
+
+form {
+	position: relative;
+	display: inline;
+	top: 100px;
+	width: 300px;
+	height: 150px;
+
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 10px;
+}
+
+fieldset {
+position: absolute;
+width: 500px;
+height: 150px;
+top: 30px;
+left: 650px;
+}
+
+.mensagem {
+	position: absolute;
+	left: 400px;
+	top: 100px;
+	width: 350px;
+	height: 80px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 30%;
+	left: 500px;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	position: absolute;
+	left: 650px;
+	top: 260px;
+	width:628px;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+/* configuração para tablet */
+
+@media screen and (max-width:800px) {
+
+    
+.caixa {
+    position: relative;
+    width: 600px;
+    height: 200px;
+ }
+
+h1 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+
+
+main {
+    position: relative;
+    width: 1400px;
+    height: 200px;
+}
+
+nav a {
+   font-size: 20px;
+}
+
+
+fieldset {
+position: relative;
+width: 450px;
+height: 150px;
+top: 80px;
+left: 10px;
+}
+
+
+.checkbox {
+	position: relative;
+	top: 100px;
+	width: 300px;
+	margin: 20px 0;
+}
+
+.enviar {
+	position: relative;
+	left: 10px;
+	top: 120px;
+	width:500px;
+	
+}
+
+}
+
+
+
+
+
+/* configuração para celular */
+
+
+
+@media screen and (max-width:600px) { 
+   
+.caixa {
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+
+
+main {
+    position: relative;
+    width: 1400px;
+    height: 200px;
+}
+
+h1 {
+     position: relative;
+    width: 80%;
+    font-size: 25px;
+}
+
+nav a {
+   font-size: 15px;
+}
+
+div.principal {
+    position: absolute;   
+    width: 80%;
+    right: 40px;
+    top: 2800px;
+}
+
+
+
+fieldset {
+position: relative;
+width: 400px;
+height: 150px;
+top: 80px;
+left: 10px;
+}
+
+
+.checkbox {
+	position: relative;
+	top: 100px;
+	width: 200px;
+	margin: 20px 0;
+}
+
+.enviar {
+	position: relative;
+	left: 10px;
+	top: 120px;
+	width:400px;
+	
+}
+
+}

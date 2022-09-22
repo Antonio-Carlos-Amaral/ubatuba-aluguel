@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+}
+
+
+.container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: none;     
+    font-family: "Inter", sans-serif;
+
+}
+
+
+.caixa {
+    position:relative;
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+
+
+.menu-fixo {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    font-size: 22px;
+    color: darkblue;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 11px;    
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 4px;
+    border-left: none;
+    border-right: none;
+    border-top-color: darkblue;
+    border-bottom-color: darkblue;
+ 
+}
+
+nav li {
+    flex: 1;
+    margin: 16px;
+    padding-top: 10px;
+    display: inline;
+}
+
+nav a {
+    position: relative;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkblue;
+    text-decoration: underline;
+    transform: scale(1.5);
+    transition: 1s all;
+}
+
+ 
+ 
+
+
+
+.mapa {
+position: relative;
+text-align: center;
+font-size: 15px;
+padding: 20px;
+width: 1200px;
+height: 110px;
+top: 100px;
+margin-left: auto;
+margin-right: auto;
+
+
+ }
+
+
+.mapa h3 {
+
+text-align: center;
+font-size: 20px;
+
+ }
+.mapa p {
+    padding: 10px;
+    color: darkblue;
+}
+
+.mapa-conteudo iframe {
+    padding: 1px;
+    width: 600px;
+    height: 280px;
+    top: 300px;
+    border-style: double;
+    border-radius: 20px;
+    border-width: 6px;
+    border-color: blue;
+    box-shadow: 10px 10px 10px 0 #000000;
+
+ }
+
+
+.principal {
+position: relative;
+text-align: center;
+font-size: 12px;
+padding: 20px;
+width: 1200px;
+height: 110px;
+top: 400px;
+margin-left: auto;
+margin-right: auto;
+
+
+ }
+
+
+
+.titulo-principal {
+    text-align: center;
+    color: red;
+    top: 50px;
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 0 0 1em;
+    clear: left;
+
+}
+
+
+
+.principal p {
+    margin: 0 0 1em;
+    font-size: 15px;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+
+
+.apartamento-sala-1, .apartamento-sala-2, .apartamento-sala-3,
+.apartamento-sala-4, .apartamento-sala-5, .apartamento-sala-6,
+.apartamento-sala-7, .apartamento-sala-8, .apartamento-sala-9,
+.apartamento-sala-10, .apartamento-sala-11, .apartamento-quarto-1, 
+.apartamento-quarto-2, .apartamento-quarto-3, .apartamento-quarto-4,
+.apartamento-quarto-5, .apartamento-quarto-6, .apartamento-quarto-7,
+.apartamento-banho-1, .apartamento-banho-2, .apartamento-cozinha-1,
+.apartamento-cozinha-2, .apartamento-cozinha-3, .apartamento-cozinha-4, 
+.apartamento-cozinha-5, .apartamento-cozinha-6, .apartamento-varanda-1,
+.apartamento-varanda-2, .apartamento-varanda-3, .apartamento-piscina-1, 
+.apartamento-piscina-2, .apartamento-piscina-3, .apartamento-entrada-1,
+.apartamento-entrada-2   
+ {
+    width: 600px;   
+    border-style: double;
+    border-width: 6px;
+    border-color: blue;
+    box-shadow: 10px 10px 10px 0 #000000;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.apartamento-banho-2  {
+    width: 600px;
+    height: 400px;
+    top: left;
+    margin: 0px 20px 20px 10px;
+    border-style: double;
+    border-width: 6px;
+    border-color: blue;
+    box-shadow: 10px 10px 10px 0 #000000;
+    border-radius: 20px;
+
+}
+
+.apartamento-sala-1:hover, .apartamento-sala-2:hover, .apartamento-sala-3:hover,
+.apartamento-sala-4:hover, .apartamento-sala-5:hover, .apartamento-sala-6:hover,
+.apartamento-sala-7:hover, .apartamento-sala-8:hover, .apartamento-sala-9:hover,
+.apartamento-sala-10:hover, .apartamento-sala-11:hover, .apartamento-quarto-1:hover, 
+.apartamento-quarto-2:hover, .apartamento-quarto-3:hover, .apartamento-quarto-4:hover,
+.apartamento-quarto-5:hover, .apartamento-quarto-6:hover, .apartamento-quarto-7:hover,
+.apartamento-banho-1:hover, .apartamento-banho-2:hover, .apartamento-cozinha-1:hover,
+.apartamento-cozinha-2:hover, .apartamento-cozinha-3:hover, .apartamento-cozinha-4:hover, 
+.apartamento-cozinha-5:hover, .apartamento-cozinha-6:hover, .apartamento-varanda-1:hover,
+.apartamento-varanda-2:hover, .apartamento-varanda-3:hover, .apartamento-piscina-1:hover, 
+.apartamento-piscina-2:hover, .apartamento-piscina-3:hover, .apartamento-entrada-1:hover,
+.apartamento-entrada-2:hover {
+    transform: scale(1.5);
+    transition: 1s all;
+}
+
+.credits {
+    position: absolute;
+    top: 520px;
+    left:  370px;
+    text-align: center;
+    color: #0A3871;
+}
+
+
+/* configuração para tablet */
+
+@media screen and (max-width:800px) {
+
+    
+.caixa {
+    position: relative;
+    width: 600px;
+    height: 200px;
+ }
+
+h1 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+
+nav a {
+   font-size: 20px;
+}
+
+div.itens {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.imgs img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.mapa {
+position: relative;
+text-align: center;
+font-size: 15px;
+padding: 20px;
+width: 400px;
+height: 110px;
+margin-left: auto;
+margin-right: auto;
+
+
+ }
+
+
+.mapa h3 {
+
+text-align: center;
+font-size: 20px;
+
+ }
+.mapa p {
+    padding: 10px;
+    color: darkblue;
+}
+
+.mapa-conteudo iframe {
+    padding: 1px;
+    width: 400px;
+    height: 280px;
+    border-style: double;
+    border-width: 6px;
+    border-color: blue;
+    box-shadow: 10px 10px 10px 0 #000000;
+
+ }
+
+
+div.principal {
+   position: relative;
+    width: 400px;
+    top: 450px;
+}
+
+
+
+.apartamento-sala-1, .apartamento-sala-2, .apartamento-sala-3,
+.apartamento-sala-4, .apartamento-sala-5, .apartamento-sala-6,
+.apartamento-sala-7, .apartamento-sala-8, .apartamento-sala-9,
+.apartamento-sala-10, .apartamento-sala-11, .apartamento-quarto-1, 
+.apartamento-quarto-2, .apartamento-quarto-3, .apartamento-quarto-4,
+.apartamento-quarto-5, .apartamento-quarto-6, .apartamento-quarto-7,
+.apartamento-banho-1, .apartamento-banho-2, .apartamento-cozinha-1,
+.apartamento-cozinha-2, .apartamento-cozinha-3, .apartamento-cozinha-4, 
+.apartamento-cozinha-5, .apartamento-cozinha-6, .apartamento-varanda-1,
+.apartamento-varanda-2, .apartamento-varanda-3, .apartamento-piscina-1, 
+.apartamento-piscina-2, .apartamento-piscina-3, .apartamento-entrada-1,
+.apartamento-entrada-2   
+ {
+    width: 400px;   
+
+}
+
+.credits {
+    position: relative;
+    width: 90%;
+    top: 1400px;
+    text-align: center;
+    color: #0A3871;
+    left: 50px;
+}
+}
+
+
+/* configuração para celular */
+
+
+
+@media screen and (max-width:600px) { 
+   
+.caixa {
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+
+h1 {
+    position: relative;
+    width: 100%;
+    font-size: 20px;
+}
+
+nav a {
+   font-size: 15px;
+}
+
+
+
+.mapa-conteudo iframe {
+    padding: 1px;
+    width: 400px;
+    height: 280px;
+    border-style: double;
+    border-width: 6px;
+    border-color: blue;
+    box-shadow: 10px 10px 10px 0 #000000;
+
+ }
+
+
+
+div.principal {
+    position: relative;   
+    width: 80%;
+    top: 450px;
+}
+
+
+
+
+div.imgs img {
+    width: 100px;
+    height: 100%;
+}
+
+.credits {
+    position: relative;
+    width: 80%;
+    top: 1400px;
+    color: #0A3871;
+    left: 50px;
+}
+}
