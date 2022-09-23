@@ -5,17 +5,13 @@
     border: none;
 }
 
-
 .container {
     width: 100%;
-    height: 300px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
     background-color: none;     
-    font-family: "Inter", sans-serif;
-
 }
-
 
 .caixa {
     position:relative;
@@ -23,10 +19,7 @@
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-   
-
 }
-
 
 .menu-fixo {
     position: fixed;
@@ -46,7 +39,6 @@
     border-right: none;
     border-top-color: darkblue;
     border-bottom-color: darkblue;
- 
 }
 
 nav li {
@@ -77,7 +69,7 @@ div.itens {
     position: relative;
     width: 1000px;
     height: 200px;
-    top: 130px;
+    top: 140px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -125,7 +117,7 @@ div.imgs img {
     padding: 5px;
     background: #FEFEFE;
     width: 980px;
-    top: 55px;
+    top: -45px;
     margin-left: auto;
     margin-right: auto;
     border-style: double;
@@ -163,7 +155,7 @@ div.imgs img {
 
 .credits {
     position: absolute;
-    top: 570px;
+    top: 565px;
     left:  360px;
     font-size: 20px;
     text-align: center;
@@ -190,7 +182,7 @@ h1 {
 }
 
 nav a {
-   font-size: 20px;
+   font-size: 12px;
 }
 
 div.itens {
@@ -231,22 +223,22 @@ div.principal {
    
 .caixa {
     position: relative;
-    width: 400px;
+    width: 390px;
     height: 200px;
 }
 
 h1 {
       position: relative;
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 nav a {
-   font-size: 15px;
+   font-size: 10px;
 }
 
 div.itens {
-    width: 400px;
+    width: 390px;
     height:300px;
     display: flex;
     flex-direction: column;
@@ -260,13 +252,13 @@ div.imgs img {
 div.principal {
     position: relative;   
     width: 80%;
-    top: 1500px;
+    top: 1330px;
 }
 
 .credits {
     position: relative;
     width: 80%;
-    top: 1550px;
+    top: 1360px;
     color: #0A3871;
     left: 50px;
 }

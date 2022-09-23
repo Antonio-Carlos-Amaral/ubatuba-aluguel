@@ -5,17 +5,13 @@
     border: none;
 }
 
-
 .container {
     width: 100%;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
     background-color: none;     
-    font-family: "Inter", sans-serif;
-
 }
-
 
 .caixa {
     position:relative;
@@ -23,10 +19,7 @@
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-   
-
 }
-
 
 .menu-fixo {
     position: fixed;
@@ -46,7 +39,6 @@
     border-right: none;
     border-top-color: darkblue;
     border-bottom-color: darkblue;
- 
 }
 
 nav li {
@@ -229,7 +221,7 @@ h1 {
 }
 
 nav a {
-   font-size: 20px;
+   font-size: 12px;
 }
 
 
@@ -287,18 +279,18 @@ div.imgs img {
    
 .caixa {
     position: relative;
-    width: 400px;
+    width: 390px;
     height: 200px;
 }
 
 h1 {
      position: relative;
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 nav a {
-   font-size: 15px;
+   font-size: 10px;
 }
 
 div.principal {
@@ -309,7 +301,7 @@ div.principal {
 
 
 div.itens-fila-1 {
-    width: 400px;
+    width: 390px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -322,7 +314,7 @@ div.imgs img {
 
 
 div.itens-fila-2 {
-    width: 400px;
+    width: 390px;
     height: 300px;
     display: flex;
     flex-direction: column;

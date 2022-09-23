@@ -15,8 +15,6 @@
     height: 100px;
     margin-left: auto;
     margin-right: auto;
- 
-
 }
 
 
@@ -38,8 +36,7 @@
     border-right: none;
     border-top-color: darkblue;
     border-bottom-color: darkblue;
- 
-}
+ }
 
 nav li {
     flex: 1;
@@ -159,18 +156,18 @@ h1 {
 
 main {
     position: relative;
-    width: 1400px;
+    width: 1600px;
     height: 200px;
 }
 
 nav a {
-   font-size: 20px;
+   font-size: 10px;
 }
 
 
 fieldset {
 position: relative;
-width: 450px;
+width: 495px;
 height: 150px;
 top: 80px;
 left: 10px;
@@ -188,7 +185,7 @@ left: 10px;
 	position: relative;
 	left: 10px;
 	top: 120px;
-	width:500px;
+	width:525px;
 	
 }
 
@@ -206,7 +203,7 @@ left: 10px;
    
 .caixa {
     position: relative;
-    width: 400px;
+    width: 390px;
     height: 200px;
 }
 
@@ -219,12 +216,14 @@ main {
 
 h1 {
      position: relative;
+     left: 50px;
     width: 80%;
-    font-size: 25px;
+    font-size: 16px;
 }
 
 nav a {
-   font-size: 15px;
+    top: 0px;
+   font-size: 10px;
 }
 
 div.principal {
@@ -238,7 +237,7 @@ div.principal {
 
 fieldset {
 position: relative;
-width: 400px;
+width: 360px;
 height: 150px;
 top: 80px;
 left: 10px;
@@ -248,7 +247,7 @@ left: 10px;
 .checkbox {
 	position: relative;
 	top: 100px;
-	width: 200px;
+	width: 360px;
 	margin: 20px 0;
 }
 
@@ -256,7 +255,7 @@ left: 10px;
 	position: relative;
 	left: 10px;
 	top: 120px;
-	width:400px;
+	width:380px;
 	
 }
 
