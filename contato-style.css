@@ -147,11 +147,6 @@ left: 650px;
  }
 
 
-.menu-fixo {
-   width: 390px;
-   height: 100px;
-
-}
 
 h1 {
     position: relative;
@@ -168,7 +163,7 @@ main {
 }
 
 nav a {
-   font-size: 10px;
+   font-size: 12px;
 }
 
 
@@ -208,29 +203,29 @@ left: 10px;
    
 .caixa {
     position: relative;
-    width: 390px;
+    width: 1660px;
     height: 200px;
 }
 
 
 main {
     position: relative;
-    width: 390px;
+    width: 1200px;
     height: 200px;
 }
 
 
 .menu-fixo {
-   width: 390px;
+   width: 100%;
    height: 100px;
 
 }
 
 h1 {
      position: relative;
-     left: 50px;
-    width: 80%;
-    font-size: 16px;
+     text-align: center;
+    width: 100%;
+    font-size: 12px;
 }
 
 nav a {
@@ -240,7 +235,7 @@ nav a {
 
 div.principal {
     position: absolute;   
-    width: 80%;
+    width: 90%;
     right: 40px;
     top: 2800px;
 }
@@ -249,7 +244,7 @@ div.principal {
 
 fieldset {
 position: relative;
-width: 360px;
+width: 600px;
 height: 150px;
 top: 80px;
 left: 10px;
@@ -259,7 +254,7 @@ left: 10px;
 .checkbox {
 	position: relative;
 	top: 100px;
-	width: 360px;
+	width: 600px;
 	margin: 20px 0;
 }
 
@@ -267,7 +262,7 @@ left: 10px;
 	position: relative;
 	left: 10px;
 	top: 120px;
-	width:380px;
+	width:400px;
 	
 }
 
