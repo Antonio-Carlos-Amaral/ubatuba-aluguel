@@ -346,36 +346,38 @@ principal {
 
 
 
-@media screen and (max-width:600px) { 
-   
+@media screen and (max-width:800px) {
+
+    
 .caixa {
     position: relative;
-    width: 390px;
+    width: 400px;
     height: 200px;
-}
+ }
 
 h1 {
-     position: relative;
+    position: relative;
+    text-align: center;
     width: 100%;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 nav a {
-   font-size: 10px;
+   font-size: 12px;
 }
 
+
 div.principal {
-    position: absolute;   
-    width: 80%;
-    right: 45px;
-    top: 2620px;
+   position: relative;
+    width: 70%;
+    top: 2000px;
 }
 
 
 
 
 div.itens-fila-1 {
-    width: 390px;
+    width: 400px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -387,13 +389,14 @@ div.imgs img {
 }
 
 
+
+
 div.itens-fila-2 {
-    width: 390px;
+    width: 400px;
     height: 300px;
-    top: 940px;
+    top: 970px;
     display: flex;
     flex-direction: column;
-
 }
 
 div.imgs img {
@@ -407,10 +410,11 @@ div.imgs img {
     position: relative;
     text-align: center;
     font-size: 15px;
-    width: 600px;
+    padding: 20px;
+    width: 400px;
     height: 110px;
-    left: -55px;
-    top: 1730px;
+    right: 20px;
+    top: 1800px;
     margin-left: auto;
     margin-right: auto;
 
@@ -420,9 +424,9 @@ div.imgs img {
 
 .video iframe {
     padding: 1px;
-    width: 380px;
+    width: 400px;
     height: 250px;
-    top: 630px;
+    top: 1300px;
     border-style: double;
     border-radius: 20px;
     border-width: 6px;
@@ -431,4 +435,8 @@ div.imgs img {
 }
 
 
+principal {
+    top: 1510px;
+    margin-left: auto;
+}
 }
