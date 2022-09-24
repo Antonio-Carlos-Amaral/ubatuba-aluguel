@@ -367,13 +367,6 @@ nav a {
 }
 
 
-div.principal {
-   position: relative;
-    width: 80%;
-}
-
-
-
 
 div.itens-fila-1 {
     width: 390px;
@@ -438,7 +431,11 @@ div.imgs img {
 
 .principal {
     position: relative;
+    width: 90%;
     left: 20px;
     top: 2100px;
+
+}
+
 }
 }
