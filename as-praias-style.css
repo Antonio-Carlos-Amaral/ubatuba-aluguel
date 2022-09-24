@@ -370,7 +370,6 @@ nav a {
 div.principal {
    position: relative;
     width: 80%;
-    top: 1700px;
 }
 
 
@@ -380,6 +379,7 @@ div.itens-fila-1 {
     width: 390px;
     height: 300px;
     display: flex;
+    left: 20px;
     flex-direction: column;
 }
 
@@ -394,7 +394,8 @@ div.imgs img {
 div.itens-fila-2 {
     width: 390px;
     height: 300px;
-    top: 970px;
+    top: 940px;
+    left: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -413,8 +414,8 @@ div.imgs img {
     padding: 20px;
     width: 390px;
     height: 110px;
-    right: 20px;
-    top: 1800px;
+    left: 0px;
+    top: 1780px;
     margin-left: auto;
     margin-right: auto;
 
@@ -426,7 +427,7 @@ div.imgs img {
     padding: 1px;
     width: 390px;
     height: 250px;
-    top: 1300px;
+    top: 1200px;
     border-style: double;
     border-radius: 20px;
     border-width: 6px;
@@ -436,7 +437,8 @@ div.imgs img {
 
 
 .principal {
-    top: 1510px;
-    margin-left: auto;
+    position: relative;
+    left: 20px;
+    top: 2100px;
 }
 }
