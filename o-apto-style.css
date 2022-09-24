@@ -244,7 +244,7 @@ margin-right: auto;
 .mapa h3 {
 
 text-align: center;
-font-size: 12px;
+font-size: 25px;
 
  }
 .mapa p {
@@ -253,9 +253,12 @@ font-size: 12px;
 }
 
 .mapa-conteudo iframe {
+    position: relative;
     padding: 1px;
-    width: 300px;
+    width: 400px;
     height: 280px;
+    top: 40px;
+    right: 60px;
     border-style: double;
     border-width: 6px;
     border-color: blue;
@@ -286,7 +289,9 @@ div.principal {
 .apartamento-piscina-2, .apartamento-piscina-3, .apartamento-entrada-1,
 .apartamento-entrada-2   
  {
-    width: 300px;
+    position: relative;
+    width: 400px;
+    right: 60px;
     box-shadow: 10px #000000;
 
 
@@ -318,6 +323,8 @@ div.principal {
 h1 {
     position: relative;
     width: 100%;
+    text-align: left;
+    left: 50px;
     font-size: 16px;
 }
 
@@ -328,31 +335,48 @@ nav a {
 
 
 .mapa-conteudo iframe {
+    position: relative;
     padding: 1px;
-    width: 400px;
-    height: 280px;
+    margin-left: -20px;
+    width: 140%;
+    height: 250px;
+    top: 30px;
+    right: 20px;
     border-style: double;
     border-width: 6px;
     border-color: blue;
-    box-shadow: 10px 10px 10px 0 #000000;
 
  }
 
 
-
-div.principal {
-    position: relative;   
-    width: 80%;
-    top: 450px;
-}
-
-
-
-
 div.imgs img {
-    width: 100px;
-    height: 100%;
+    position: relative;
+    width: 50px;
+    height: 80px;
+    right: 10px;
 }
+
+
+.apartamento-sala-1, .apartamento-sala-2, .apartamento-sala-3,
+.apartamento-sala-4, .apartamento-sala-5, .apartamento-sala-6,
+.apartamento-sala-7, .apartamento-sala-8, .apartamento-sala-9,
+.apartamento-sala-10, .apartamento-sala-11, .apartamento-quarto-1, 
+.apartamento-quarto-2, .apartamento-quarto-3, .apartamento-quarto-4,
+.apartamento-quarto-5, .apartamento-quarto-6, .apartamento-quarto-7,
+.apartamento-banho-1, .apartamento-banho-2, .apartamento-cozinha-1,
+.apartamento-cozinha-2, .apartamento-cozinha-3, .apartamento-cozinha-4, 
+.apartamento-cozinha-5, .apartamento-cozinha-6, .apartamento-varanda-1,
+.apartamento-varanda-2, .apartamento-varanda-3, .apartamento-piscina-1, 
+.apartamento-piscina-2, .apartamento-piscina-3, .apartamento-entrada-1,
+.apartamento-entrada-2   
+ {
+    position: relative;
+    margin-left: -20px;
+    width: 140%;
+    height: 250px;
+    right: 20px;
+
+   }
 
 .credits {
     position: relative;
